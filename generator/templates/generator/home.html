@@ -1,0 +1,24 @@
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm" crossorigin="anonymous"></script>
+
+<div class="container text-center">
+<h2>Password Generator</h2>
+
+<form action="password">
+    <select class="mb-2" name="length">
+        <option value="4">4</option>
+        <option value="5">5</option>
+        <option value="6">6</option>
+        <option value="7">7</option>
+        <option value="8">8</option>
+    </select>  Length
+    <br>
+    <input class="mb-2" type="checkbox" name="numbers"> Numbers
+    <br>
+    <input class="mb-2" type="checkbox" name="uppercase"> Uppercase
+    <br>
+    <input class="mb-2" type="checkbox" name="special"> Special Characters
+    <br>
+    <input type="submit" value="Generate Password" class="mt-2 btn btn-primary">
+</form>
+</div>
